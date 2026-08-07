@@ -15,6 +15,20 @@ body {
   line-height: 1.6;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
 
 /* button */
 .btn {
@@ -70,3 +84,54 @@ body {
   color: #007bff;
 }
 
+
+/* Hero start*/
+
+/* ===== Hero ===== */
+.hero {
+  min-height: 800px;
+  background: linear-gradient(180deg, #0b1b341f, #0b1b3438), url("./assets/banner.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 120px 24px 64px;
+  color: #ffffff;
+}
+
+.hero-content {
+  width: min(100%, 920px);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 600px;
+}
+
+.hero h1 {
+  font-size: clamp(3rem, 6vw, 5rem);
+  line-height: 0.95;
+  margin-bottom: 24px;
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+.hero h1 span {
+  font-style: italic;
+}
+
+.hero p {
+  max-width: 640px;
+  margin: 16px auto 40px;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #ffffffeb;
+}
+
+.hero .btn-common {
+  align-self: center;
+  margin-top: auto;
+  min-width: 240px;
+  padding: 16px 32px;
+  font-size: 16px;
+}
+
+/* hero section end  */
