@@ -140,7 +140,7 @@ img {
 /* speaker section start  */
 
 .speakers {
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 80px 24px;
 }
@@ -195,7 +195,7 @@ img {
 
 /* Pricing Section start */
 .pricing {
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 80px 24px;
   text-align: center;
@@ -303,7 +303,7 @@ img {
 
 /* Faq section start */
 .faq {
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 80px 24px;
 }
@@ -358,7 +358,7 @@ img {
 
 .footer-top,
 .footer-bottom {
-  max-width: 1100px;
+  max-width: 1300px;
   margin: 0 auto;
   display: flex;
   align-items: center;
