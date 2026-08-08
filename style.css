@@ -263,19 +263,16 @@ img {
   color: #9ca3af;
 }
 
-.price-card hr {
-  border: none;
-  border-top: 1px solid #e5e7eb;
-  margin: 24px 0;
-}
-
-.price-pro hr {
-  border-top-color: #33415c;
-}
-
 .price-card ul {
   list-style: disc inside;
+  border-top: 1px solid #e5e7eb;
+  margin-top: 24px;
+  padding-top: 24px;
   margin-bottom: 24px;
+}
+
+.price-pro ul {
+  border-top-color: #33415c;
 }
 
 .price-card li {
@@ -303,4 +300,5 @@ img {
   color: #111827;
 }
 /* Pricing Section end */
+
 
