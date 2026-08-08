@@ -1,0 +1,1 @@
+so in between the pricing section and footer , we need to make something meaningful and best in the scenarios of this DevConf2026 website. I want you to use html and css code only to build this section.
