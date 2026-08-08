@@ -301,4 +301,89 @@ img {
 }
 /* Pricing Section end */
 
+/* Faq section start */
+.faq {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 80px 24px;
+}
+
+.faq-grid {
+  display: flex;
+  gap: 24px;
+}
+
+.faq-col {
+  flex: 1;
+}
+
+.faq h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 48px;
+}
+
+.faq details {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 16px;
+}
+
+.faq summary {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.faq summary::marker {
+  color: #2563eb;
+}
+
+.faq details p {
+  margin-top: 12px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #6b7280;
+}
+/* Faq section end */
+
+/* Footer section start */
+.footer {
+  background-color: #0b1b34;
+  color: #9ca3af;
+  font-size: 14px;
+  padding: 40px 24px;
+}
+
+.footer-top,
+.footer-bottom {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-top {
+  padding-bottom: 24px;
+  border-bottom: 1px solid #33415c; /* horizontal divider */
+}
+
+.footer-bottom {
+  padding-top: 24px;
+}
+
+.footer-top img {
+  height: 40px;
+}
+
+.footer-social a,
+.footer-links a {
+  margin-left: 20px;
+}
+
+.footer-social a {
+  font-size: 18px;
+}
 
